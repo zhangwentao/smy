@@ -251,7 +251,8 @@ span.num-em {
   background: -webkit-linear-gradient(top, #f0c167, #572912);
 }
 .page-gradient .page {
-  overflow-y: visible;
+  overflow: visible;
+  overflow-x: hidden;
 }
 .mailis {
   position: absolute;
