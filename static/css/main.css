@@ -383,15 +383,14 @@ span.num-em {
 }
 .page-9 .price {
   position: absolute;
+  width: 180px;
+  height: 12px;
   left: 0;
   right: 0;
+  margin: auto;
+  background: url(../img/lirenbantext.png) no-repeat center center;
+  background-size: cover;
   bottom: 80px;
-  font-size: 12px;
-  color: #ffe57e;
-  text-align: center;
-}
-.page-9 .price .num-em {
-  font-size: 20px;
 }
 .page-9 .arrow {
   left: 0;

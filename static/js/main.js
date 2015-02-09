@@ -18,12 +18,13 @@ $(function(){
 
 	});
 
-	$('.maili').attr('data--20','transform:translate(0px,-50px);opacity:0');
+	$('.maili').attr('data--300','transform:translate(0px,-50px);opacity:0');
 	$('.maili').attr('data-0','transform:translate(0px,-30px);opacity:1;background-position-y:0px;');
 	$('.maili').attr('data-'+constProp['scrHeight'],'transform:translate(0px,'+constProp['scrHeight']+'px);');
 	$('.maili').attr('data-'+(Number(constProp['scrHeight'])+1),'background-position-y:-230px;');
 	$('.maili').attr('data-'+(Number(constProp['scrHeight'])*2),'transform:translate(0px,'+(Number(constProp['scrHeight'])*2+constProp['scrHeight']*0.2)+'px);background-position-y:-230px;');
 	$('.maili').attr('data-'+(Number(constProp['scrHeight'])*2+1),'transform:translate(0px,'+(Number(constProp['scrHeight'])*2+constProp['scrHeight']*0.2)+'px);background-position-y:-460px;');
+
 
 
 	$('.motion').each(function(){
@@ -49,7 +50,7 @@ $(function(){
 		}
 	});
 	var s = skrollr.init();
-	$('.arrow').on('click',function(){
+	$('.arrow').attr({"href":"javascript:;"}).on('click',function(){
 		var $this = $(this);
 		var $sk = $('#skrollr-body');
 		var pageIndex = Number($this.parents('.page').attr('data-page-index'));
