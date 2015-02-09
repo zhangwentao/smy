@@ -203,6 +203,7 @@ span.num-em {
   margin: 15px auto 0;
 }
 .page-1 .madou {
+  display: none;
   position: absolute;
   right: 10px;
   width: 190px;
@@ -213,6 +214,7 @@ span.num-em {
   margin: 15px auto 0;
 }
 .page-1 .signature {
+  display: none;
   position: absolute;
   width: 93px;
   height: 48px;
@@ -335,7 +337,7 @@ span.num-em {
   left: 0;
   right: 0;
   margin: auto;
-  top: 27%;
+  top: 33%;
   width: 210px;
   height: 176px;
   background: url(../img/gift-1.png) no-repeat center center;
@@ -344,8 +346,11 @@ span.num-em {
 .page-8 .arrow {
   left: 0;
   right: 0;
-  bottom: 20px;
+  bottom: 40px;
   margin: auto;
+}
+.page-9 {
+  overflow: hidden !important;
 }
 .page-9 .banner {
   position: absolute;
@@ -384,6 +389,9 @@ span.num-em {
   font-size: 12px;
   color: #ffe57e;
   text-align: center;
+}
+.page-9 .price .num-em {
+  font-size: 20px;
 }
 .page-9 .arrow {
   left: 0;
