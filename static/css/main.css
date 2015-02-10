@@ -159,6 +159,7 @@ span.num-em {
 .text-box .desc {
   font-size: 12px;
   text-indent: 2em;
+  margin-bottom: 10px;
 }
 .text-box p {
   font-size: 12px;
@@ -280,7 +281,9 @@ span.num-em {
   height: 275px;
   background: no-repeat center center;
   background-size: cover;
-  right: 0px;
+  height: 280px;
+  top: -5px;
+  right: 10px;
   background-image: url(../img/maili-right.png);
 }
 .page-2 .text-box {
