@@ -18,12 +18,12 @@ $(function(){
 
 	});
 
-	$('.maili').attr('data--300','transform:translate(0px,-50px);opacity:0');
-	$('.maili').attr('data-0','transform:translate(0px,-30px);opacity:1;background-position-y:0px;');
+	$('.maili').attr('data--300','transform:translate(0px,-80px);opacity:0');
+	$('.maili').attr('data-0','transform:translate(0px,-80px);opacity:1;background-position-y:0px;');
 	$('.maili').attr('data-'+constProp['scrHeight'],'transform:translate(0px,'+constProp['scrHeight']+'px);');
 	$('.maili').attr('data-'+(Number(constProp['scrHeight'])+1),'background-position-y:-230px;');
-	$('.maili').attr('data-'+(Number(constProp['scrHeight'])*2-100),'transform:translate(0px,'+(Number(constProp['scrHeight'])*2+constProp['scrHeight']*0.14)+'px);background-position-y:-230px;');
-	$('.maili').attr('data-'+(Number(constProp['scrHeight'])*2-99),'transform:translate(0px,'+(Number(constProp['scrHeight'])*2+constProp['scrHeight']*0.14)+'px);background-position-y:-460px;');
+	$('.maili').attr('data-'+(Number(constProp['scrHeight'])*2-100),'transform:translate(0px,'+(Number(constProp['scrHeight'])*2+constProp['scrHeight']*0.07)+'px);background-position-y:-230px;');
+	$('.maili').attr('data-'+(Number(constProp['scrHeight'])*2-99),'transform:translate(0px,'+(Number(constProp['scrHeight'])*2+constProp['scrHeight']*0.07)+'px);background-position-y:-460px;');
 
 
 
